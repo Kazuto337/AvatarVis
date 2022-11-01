@@ -6,12 +6,9 @@ public class CameraDrag : MonoBehaviour
 {
     public float dragSpeed = 2;
     private Vector3 dragOrigin;
- 
- 
+
     void Update()
     {
-        //dragOrigin = new Vector3(Input.GetAxis("Horizontal"), dragOrigin.y, Input.GetAxis("Vertical"));
-        
         if (Input.GetMouseButtonDown(0))
         {
             dragOrigin = Input.mousePosition;
