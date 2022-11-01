@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,13 +10,15 @@ public class CameraDrag : MonoBehaviour
 
     void Update()
     {
+        if(Brain.brainCode.estadoActual==Brain.estados.zoom)
+            return;
+        
         if (Input.GetMouseButtonDown(0))
         {
             dragOrigin = Input.mousePosition;
             return;
         }
         
-
         if (!Input.GetMouseButton(0)) return;
  
         Vector3 pos = Camera.main.ScreenToViewportPoint(Input.mousePosition - dragOrigin);
