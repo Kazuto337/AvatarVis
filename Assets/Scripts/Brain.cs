@@ -2,13 +2,53 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Brain : MonoBehaviour
 {
     public static Brain brainCode;
     public bool onCanvasDisplayed;
+    public GameObject canvasObj;
     public epocas epocaOn;
     public region regionActiva;
+    public estados estadoActual;
+
+    private void Awake()
+    {
+        brainCode = this;
+    }
+
+    private void Start()
+    {
+        Debug.Log(DateTime.Now.ToString());
+    }
+
+
+    private void Update()
+    {
+        switch (estadoActual)
+        {
+            case estados.navegando:
+                
+                break;
+            case estados.zoom:
+                
+                if (onCanvasDisplayed && Input.GetKeyDown(KeyCode.Escape))
+                {
+                    canvasObj.SetActive(false);
+                    onCanvasDisplayed = false;
+                    estadoActual = estados.navegando;
+                }
+                break;
+        }
+        
+    }
+    
+    public enum estados
+    {
+        navegando,
+        zoom
+    }
 
     public enum region
     {
@@ -25,35 +65,5 @@ public class Brain : MonoBehaviour
         Roku,
         Aang,
         Korra
-    }
-
-    private void Start()
-    {
-        brainCode = this;
-    }
-
-    public void BotonGastro()
-    {
-        switch (regionActiva)
-        {
-            case region.aguaSur:
-                break;
-            case region.aguaNorte:
-                break;
-            case region.fuego:
-                break;
-            case region.tierra:
-                break;
-            case region.aire:
-                break;
-            
-            default:
-                break;
-        }
-    }
-
-    public void BotonArteCtrl()
-    {
-        
     }
 }

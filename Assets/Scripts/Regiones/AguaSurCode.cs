@@ -1,18 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
 public class AguaSurCode : MonoBehaviour, MouseClickInterface
 {
-    [SerializeField] private RecursosRegiones recursos;
+    private RecursosRegiones recursos;
     [SerializeField] private Brain.region estaRegion;
     [SerializeField] private GameObject panelCanvas;
     [SerializeField] private TextMeshProUGUI nombreText;
     [SerializeField] private TextMeshProUGUI DescrpText;
 
+    private void Start()
+    {
+        recursos = gameObject.GetComponent<RecursosRegiones>();
+    }
+
     public void Click()
     {
+        Brain.brainCode.estadoActual = Brain.estados.zoom;
         Brain.brainCode.onCanvasDisplayed = true;
         Brain.brainCode.regionActiva = estaRegion;
         // mover camara
