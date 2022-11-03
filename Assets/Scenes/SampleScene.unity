@@ -617,7 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onCanvasDisplayed: 0
   canvasObj: {fileID: 1274883380}
-  epocaOn: 0
+  epocaOn: 1
   regionActiva: 0
   estadoActual: 0
 --- !u!114 &606446119
@@ -1333,6 +1333,156 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherMat: {fileID: 2100000, guid: 435b20ecfe8902a47b5d7a32f52f95c2, type: 2}
   region: {fileID: 1408038212}
+--- !u!114 &732607933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9024ae2f5b499434d899738ef9344e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreRoku: 
+  descrpRoku: 
+  nombreAang: 'Omashu: Uicacion Sudoeste de el reino tierra'
+  descrpAang: "Gobernante: Rey bumi Omashu es la segunda ciudad m\xE1s grande del
+    Reino Tierra y la capital de una de sus provincias. Omashu se encuentra en la
+    cordillera de las Monta\xF1as Kolau en el suroeste de Reino Tierra. La ciudad
+    est\xE1 construida sobre una serie de colinas, y est\xE1 rodeada por un barranco
+    ancho. Omashu est\xE1 fuertemente fortificada. "
+  nombreKorra: 
+  descrpKorra: 
+--- !u!114 &732607934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c50b9a3a1e9d549b6c398dc4ad5bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estaRegion: 4
+  panelCanvas: {fileID: 1274883380}
+  nombreText: {fileID: 1699005785}
+  DescrpText: {fileID: 156946379}
+--- !u!114 &732607935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9024ae2f5b499434d899738ef9344e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreRoku: 
+  descrpRoku: 
+  nombreAang: Templo aire del norte
+  descrpAang: "El Templo Aire del Norte es uno de los cuatro templos originales que
+    pertenec\xEDan a los N\xF3madas Aire. Ubicado en las monta\xF1as a lo largo de
+    la costa norte de la Reino Tierra, este templo fue uno de los dos templos que
+    albergaban exclusivamente Maestros Aire masculinos, El templo fue dise\xF1ado
+    para ser una parte de su entorno natural y para encajar armoniosamente con la
+    naturaleza - grandes pasillos aprovechando el viento y permitir que el aire fluya
+    de forma natural en su interior."
+  nombreKorra: 
+  descrpKorra: 
+--- !u!114 &732607936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c50b9a3a1e9d549b6c398dc4ad5bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estaRegion: 3
+  panelCanvas: {fileID: 1274883380}
+  nombreText: {fileID: 1699005785}
+  DescrpText: {fileID: 156946379}
+--- !u!114 &732607937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9024ae2f5b499434d899738ef9344e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreRoku: 
+  descrpRoku: 
+  nombreAang: "Roca Hirviente: Norte de la naci\xF3n del fuego"
+  descrpAang: " Entre sus aspectos m\xE1s destacados est\xE1 el sistema de g\xF3ndola,
+    que es la \xFAnica forma entrar y salir de la isla-prisi\xF3n, y las c\xE1maras
+    de aislamiento llamadas \"congeladores\". Los prisioneros no pueden escapar nadando
+    en el lago, ya que se ver\xEDan gravemente quemados. Los que tratan de escapar
+    de cualquier otra forma se lanzan en los congeladores."
+  nombreKorra: 
+  descrpKorra: 
+--- !u!114 &732607938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c50b9a3a1e9d549b6c398dc4ad5bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estaRegion: 2
+  panelCanvas: {fileID: 1274883380}
+  nombreText: {fileID: 1699005785}
+  DescrpText: {fileID: 156946379}
+--- !u!114 &732607939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9024ae2f5b499434d899738ef9344e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreRoku: 
+  descrpRoku: 
+  nombreAang: 
+  descrpAang: 
+  nombreKorra: 
+  descrpKorra: 
+--- !u!114 &732607940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732607926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c50b9a3a1e9d549b6c398dc4ad5bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estaRegion: 1
+  panelCanvas: {fileID: 1274883380}
+  nombreText: {fileID: 1699005785}
+  DescrpText: {fileID: 156946379}
 --- !u!114 &732607942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1348,8 +1498,18 @@ MonoBehaviour:
   nombreRoku: Imperio Agua del Sur
   descrpRoku: fsdgafdfdgdfgdfgfdgegdfgsdubyfsdfsdjfsjfbsfsfkslbfsjkbfuyybf fnsbuyfsvfs
     fksbfisbfnsfhsgwuebjkf knnfbwifhwe
-  nombreAang: Imperio Agua del
-  descrpAang: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  nombreAang: Palacio real tribu agua del sur
+  descrpAang: "El Palacio Real de la Tribu Agua del Sur es la sede de gobierno de
+    la Tribu Agua del Sur, dirige tanto los poderes legislativo y judicial de la
+    pol\xEDtica local. Situado en la capital de la tribu, la Ciudad Portuaria, el
+    palacio sirve para representar a la autonom\xEDa de la Tribu del Sur de la Tribu
+    del Norte, que alberga el Consejo de Caciques y Ancianos. El Palacio Real de
+    la Tribu Agua del Sur es una estructura elevada de la tierra, con numerosas torres
+    rematadas. A pesar de que es totalmente blanco en la coloraci\xF3n, las torres
+    parecen de oro cuando es iluminado por la luz del sol. Estructuralmente, el palacio
+    est\xE1 construido de manera similar a las estructuras modernas presentes en
+    Ciudad Rep\xFAblica , pero conserva elementos de la arquitectura tradicional
+    tribu del agua, sobre todo en el uso de hielo como fundamento y mobiliario"
   nombreKorra: 
   descrpKorra: 
 --- !u!114 &732607943
@@ -1599,7 +1759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &963194226
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1828,7 +1988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1274883381
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2106,7 +2266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1483995171
 AudioListener:
   m_ObjectHideFlags: 0
