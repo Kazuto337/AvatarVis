@@ -17,13 +17,7 @@ public class Brain : MonoBehaviour
     {
         brainCode = this;
     }
-
-    private void Start()
-    {
-        Debug.Log(DateTime.Now.ToString());
-    }
-
-
+    
     private void Update()
     {
         switch (estadoActual)
