@@ -286,7 +286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -532.38043, y: 396.40338}
+  m_AnchoredPosition: {x: -532.38043, y: 363}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156946379
@@ -341,8 +341,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -549,27 +549,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.02
+      value: 0.041914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.02
+      value: 0.041914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.02
+      value: 0.041914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -160.936
+      value: -161.007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.442
+      value: 0.438
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.181
+      value: -13.511
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
       propertyPath: m_LocalRotation.w
@@ -603,6 +603,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Naufragio (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5149157372759095750, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765366824985428268, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad21b227ffc17904a8997c332cc19f09, type: 3}
 --- !u!4 &468610854 stripped
@@ -627,7 +635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &479871748
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2492,15 +2500,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.005
+      value: 0.0104785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.005
+      value: 0.0104785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.005
+      value: 0.0104785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2512,7 +2520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.427
+      value: 15.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 146c279fe50fe6347b2b1e3713e4f20d, type: 3}
       propertyPath: m_LocalRotation.w
